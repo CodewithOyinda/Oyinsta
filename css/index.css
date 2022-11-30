@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 *,
 *::before,
@@ -22,9 +22,14 @@ body {
     display: flex;
     flex-direction: row;
 }
-.sidebar {
+aside {
     max-width: 20%;
     width: 20%;
     border: 1px solid black;
     background-color: #ffffff;
+}
+.logo h1 {
+    font-family: 'Cookie', cursive;
+    font-weight: lighter;
+    font-size: 2rem;
 }
