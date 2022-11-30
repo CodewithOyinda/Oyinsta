@@ -12,10 +12,9 @@ html,
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   background-color: #fafafa;
-  /* font-family: 'Oleo Script', cursive; */
+
 }
 .container {
-    border: 1px solid red;
     max-width: 1440px;
     width: 100%;
     height: 100vh;
@@ -27,6 +26,14 @@ aside {
     width: 20%;
     border: 1px solid black;
     background-color: #ffffff;
+}
+.sidebar {
+    margin:0px auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .logo h1 {
     font-family: 'Cookie', cursive;
