@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  background-color: #fafafa;
+  /* font-family: 'Oleo Script', cursive; */
+}
+.container {
+    border: 1px solid red;
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar {
+    max-width: 20%;
+    width: 20%;
+    border: 1px solid black;
+    background-color: #ffffff;
+}
