@@ -63,13 +63,17 @@ nav ul li a i {
   font-size: 1.5rem;
 }
 .main {
-  display: flex;
-  justify-content: space-between;
   width: 80%;
   position: relative;
+  padding: 20px 40px;
+  border: 1px solid #dbdbdb ;
+}
+.main__content {
+  margin: 0px auto;
+  display: flex;
 }
 .story {
-  border: 1px solid grey;
+  border: 1px solid #dbdbdb;
   width: 550px;
   height: 100px;
   border-radius: 0.65rem;
@@ -78,7 +82,7 @@ nav ul li a i {
 }
 /* first post */
 .pages {
-  border: 1px solid grey;
+  border: 1px solid #dbdbdb;
   width: 550px;
   margin-top: 20px;
   height: 50px;
@@ -90,7 +94,7 @@ nav ul li a i {
   height: 600px;
 }
 .page__comments {
-  border: 1px solid grey;
+  border: 1px solid #dbdbdb;
   width: 550px;
   height: 200px;
 }
@@ -102,7 +106,7 @@ nav ul li a i {
 .page__bottom {
   display: flex;
   justify-content: space-between;
-  border: 1px solid grey;
+  border: 1px solid #dbdbdb;
   width: 550px;
   height: 50px;
   border-bottom-left-radius: 0.65rem;
