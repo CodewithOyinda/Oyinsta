@@ -86,11 +86,18 @@ nav ul li a i {
   justify-content: flex-start;
   align-items: center;
   padding: 0px 20px;
+  gap: 1rem;
+  scrollbar-width: none;
+
+}
+.story::-webkit-scrollbar {
+  display: none;
 }
 .picture {
   position: relative;
-  width: 57px;
-  height: 57px;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -102,6 +109,7 @@ nav ul li a i {
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
+  border: 2px solid #ffffff;
 }
 /* first post */
 .pages {
