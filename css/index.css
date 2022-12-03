@@ -46,6 +46,11 @@ aside {
   font-weight: lighter;
   font-size: 2rem;
 }
+.sidebar li img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
 nav ul {
   list-style-type: none;
   font-size: 15px;
@@ -71,6 +76,7 @@ nav ul li a i {
 .main__content {
   margin: 0px auto;
   display: flex;
+  gap: 2rem;
 }
 .story {
   border: 1px solid #dbdbdb;
@@ -119,6 +125,16 @@ nav ul li a i {
   height: 50px;
   border-top-left-radius: 0.65rem;
   border-top-right-radius: 0.65rem;
+  background-color: #ffffff;
+}
+.pages .img__profile {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  padding: 5px; 
+}
+.pages p {
+  padding-top: 10px;
 }
 .picture-1 {
   width: 550px;
@@ -128,11 +144,17 @@ nav ul li a i {
   border: 1px solid #dbdbdb;
   width: 550px;
   height: 200px;
-}
-.page__bottom {
+  background-color: #ffffff;
+  line-height: 1.5rem;
+  padding: 10px;
+  margin-top: -4px;
 }
 .grey {
   color: #ab8e8e;
+}
+.grey-hr {
+  color: #ab8e8e;
+  font-size: 10px;
 }
 .page__bottom {
   display: flex;
@@ -142,6 +164,10 @@ nav ul li a i {
   height: 50px;
   border-bottom-left-radius: 0.65rem;
   border-bottom-right-radius: 0.65rem;
+  background-color: #ffffff;
+}
+.page__comments .fa-regular {
+  
 }
 .bottom__post {
   color: #b7e1fd;
@@ -149,17 +175,28 @@ nav ul li a i {
 a:link {
   text-decoration: none;
 }
-.row-1,
-.row-2,
-.row-3,
-.row-4,
-.row-5,
-.row-6,
-.row-7 {
-  display: flex;
-  justify-content: space-between;
-  gap: 5rem;
+.suggestions {
+  border: 1px solid crimson;
+  width: 40%;
+}
+.suggestions picture {
+  border: 4px solid #dbdbdb;
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+}
+.suggestions picture img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
 }
 .blue {
   color: #3aadf7;
+}
+.img__sug {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
